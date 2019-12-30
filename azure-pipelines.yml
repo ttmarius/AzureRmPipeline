@@ -13,10 +13,10 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    ConnectedServiceName: '[AzureRmPipeline-connect]'
-    subscriptionName: '[80effeb1-0d3e-42e7-b1e8-11571a90ec98]'
+    ConnectedServiceName: 'AzureRmPipeline-connect'
+    subscriptionName: '80effeb1-0d3e-42e7-b1e8-11571a90ec98'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: '[AzureRmPipeline-rg]'
+    resourceGroupName: 'AzureRmPipeline-rg'
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateAzureStorage/azuredeploy.json'
