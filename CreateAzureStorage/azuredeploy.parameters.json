@@ -13,12 +13,6 @@
         },
         "virtualMachineCount": {
             "value": "3"
-        },
-        "resourceTags": {
-            "value": {
-                "Environment": "Test",
-                "Project": "Tutorial"
-            }
         }
     }
 }
